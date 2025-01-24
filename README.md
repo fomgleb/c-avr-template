@@ -28,7 +28,7 @@ This is a template for an AVR-GCC project. The microcontroller used in this temp
      ```
 4. Apply default VS Code configurations:
    ```
-   sudo bash update_vscode_configs.sh
+   ./use_default_vscode_configs.sh
    ```
 
 ## Settings
