@@ -36,7 +36,7 @@
         {
             "label": "AVRDUDE_LINUX FLASH RELEASE ATMEGA328P_ARDUINO_UNO",
             "type": "shell",
-            "command": "avrdude -carduino -P/dev/ttyUSB0 -b115200 -D -p atmega328p -U flash:w:build/src/main_app.elf",
+            "command": "avrdude -carduino -P/dev/ttyUSB0 -b115200 -D -p atmega328p -U flash:w:build/src/main/main_app.elf",
             "dependsOn": "CMAKE BUILD RELEASE",
             "group": {
                 "kind": "build",

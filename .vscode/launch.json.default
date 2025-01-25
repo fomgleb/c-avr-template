@@ -14,10 +14,10 @@
                 "--gdb",
                 "1234",
                 "-ff",
-                "${workspaceFolder}/build/src/main/src/main_app.hex",
+                "${workspaceFolder}/build/src/main/main_app.hex",
                 // "-ee",
-                // "build/src/main/src/main_eeprom.hex",
-                "${workspaceFolder}/build/src/main/src/main_app.elf"
+                // "${workspaceFolder}/build/src/main/main_app_eeprom.hex",
+                "${workspaceFolder}/build/src/main/main_app.elf"
             ],
             "cwd": "${workspaceFolder}/src/main",
             "stopAtEntry": false,
@@ -28,7 +28,7 @@
             "name": "AVR-GDB_LINUX DEBUG PORT:1234",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/src/main/src/main_app.elf",
+            "program": "${workspaceFolder}/build/src/main/main_app.elf",
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/avr-gdb",
             "miDebuggerServerAddress": "localhost:1234",
