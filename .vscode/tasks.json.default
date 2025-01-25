@@ -1,5 +1,6 @@
 {
     "version": "2.0.0",
+    "problemMatcher": "$gcc",
     "tasks": [
         {
             "label": "CMAKE CONFIG DEBUG",
@@ -19,7 +20,6 @@
                 "kind": "build",
                 "isDefault": false
             },
-            "problemMatcher": "$gcc",
             "dependsOn": "CMAKE CONFIG DEBUG"
         },
         {
@@ -30,7 +30,6 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": "$gcc",
             "dependsOn": "CMAKE CONFIG RELEASE"
         },
         {
